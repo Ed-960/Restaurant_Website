@@ -1,0 +1,54 @@
+.recipesItem {
+  margin-bottom: 30px;
+  border-radius: 6px;
+  padding: 10px 20px 0 20px;
+  height: 140px;
+  background-color: #252525;
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  &_comment,
+  &_info_box,
+  &_watch {
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  &_watch,
+  &_comment {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  &_comment_count,
+  &_watch_count {
+    margin-left: 12px;
+  }
+  &_btn_data {
+    margin-top: 15px;
+    display: flex;
+  }
+  &_data {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #b3b3b3;
+    margin-left: 20px;
+  }
+  &_inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  Button {
+    margin: 0;
+  }
+  &_info_box {
+    margin-top: -10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+  }
+}

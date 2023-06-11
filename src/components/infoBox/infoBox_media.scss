@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1314px) {
+  .boxItem {
+    max-width: 350px;
+  }
+
+  .boxTitle {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .boxItem {
+    margin-bottom: 40px;
+  }
+}

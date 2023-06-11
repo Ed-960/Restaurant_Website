@@ -1,0 +1,284 @@
+@media only screen and (max-width: 1360px) {
+  .chefs_item {
+    margin-left: 165px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 30px;
+    margin-left: 165px;
+  }
+}
+
+@media only screen and (max-width: 1314px) {
+  .infoBox_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+    margin-right: 200px;
+    margin-left: 230px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .dishItems {
+    margin: 60px 165px 0 165px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 60px;
+  }
+
+  .social {
+    &_mediaItem {
+      margin-left: 30px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .dishItems {
+    margin: 60px 500px 0 500px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .pagination_box {
+    button {
+      img {
+        width: 95%;
+      }
+    }
+  }
+
+  .recipes {
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+
+  .recipes_content {
+    display: block;
+  }
+
+  .recipesItems {
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+
+  .recipes_main_content {
+    margin: 0 auto;
+  }
+
+  .chefs_item {
+    margin-left: 170px;
+  }
+  .gallery {
+    margin-left: 170px;
+  }
+
+}
+
+@media only screen and (max-width: 1050px) {
+  .chefs_item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .chefs_item {
+    margin-left: 170px;
+  }
+  .gallery {
+    margin-left: 170px;
+  }
+
+  .dishItems {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    margin-top: 50px;
+    padding-top: 0px;
+  }
+  .infItems {
+    margin-top: 40px;
+  }
+
+  .title {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    margin-top: 30px;
+  }
+
+  .chefs_item {
+    margin-left: 180px;
+  }
+  .gallery {
+    margin-left: 180px;
+  }
+
+  .recipes_main_content {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .infoBox_items {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .chefs_content {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+
+  .chefs_item {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    margin-left: 100px;
+    margin-right: 0;
+  }
+
+  .gallery {
+    margin-top: 40px;
+    margin-left: 0;
+    & img {
+      margin-right: 0;
+    }
+    .img_big {
+      max-width: 120px;
+    }
+    .img_small {
+      max-width: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    margin-top: 80px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    &_info {
+      margin-top: -20px;
+    }
+  }
+
+  .pagination_box {
+    display: none;
+  }
+
+  .about_info {
+    padding-top: 20px;
+  }
+
+  .recipes_arrow_white {
+    left: -10px;
+    padding: 10px;
+  }
+
+  Button {
+    margin-right: 21px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .gallery {
+    display: none;
+  }
+
+  .chefs_item {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .recipes {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  .recipes_content {
+    display: block;
+  }
+  
+  .recipesItems {
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  
+  .recipes_main_content {
+    margin: 0 auto;
+  }
+}  
+
+@media only screen and (max-width: 600px) {
+  .infItems {
+    margin-left: 20px;
+    display: block;
+  }
+
+  .dishItems {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 80px;
+    margin: 60px 200px 0 200px;
+  }
+  
+}
+
+@media only screen and (max-width: 440px) {
+  .infoBox_items {
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+  .dishItems {
+    margin: 60px 130px 0 130px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .recipes {
+    &_main_content {
+      max-width: 250px;
+      margin: 0 auto;
+    }
+    &_arrow_white {
+      display: none;
+    }
+    &_info {
+      margin-top: 0;
+    }
+  }
+  .button {
+    margin-left: -40px;
+  }
+}  

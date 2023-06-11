@@ -1,0 +1,39 @@
+.header {
+  box-shadow: 0 0px 4px #fff;
+  padding: 1rem;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  .applogo {
+    margin-right: auto;
+    margin-left: 160px;
+  }
+  
+  .header_menu {
+    margin-top: 25px;
+    margin-right: 170px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    li {
+      font-family: 'Helvetica Neue';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #ffffff;
+      margin: 0 1rem;
+      &:hover {
+        cursor: pointer;
+        color: #34c759;
+      }
+    }
+  }
+  .header_toggle {
+    position: relative;
+    right: -30px;
+    display: none;
+  }
+}

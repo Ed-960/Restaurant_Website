@@ -1,0 +1,295 @@
+.box {
+  box-sizing: border-box;
+  margin-top: -7px;
+  background-color: #191919;
+}
+
+.bgi {
+  background-image: url('./../../assets/bgi.png');
+  background-repeat: 'no-repeat';
+  background-size: cover;
+}
+
+.infItems {
+  display: flex;
+  margin-top: 70px;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 32px;
+}
+
+Button {
+  margin-top: 25px;
+  p {
+    padding: 0 25px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+  }
+}
+
+//about
+
+.about {
+  margin: 0 165px;
+  padding-top: 40px;
+  margin-top: 165px;
+  background: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.about_info {
+  width: 650px;
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #a6a6a6;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.list {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.list.show {
+  opacity: 1;
+}
+.pagination_box {
+  display: flex;
+  justify-content: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 20px;
+    &:disabled {
+      cursor: default;
+      opacity: 0.5;
+    }
+  }
+
+  .list {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.show {
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    &.hide {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+  }
+}
+
+// work
+
+.work {
+  margin-top: 60px;
+}
+
+.underLine {
+  text-align: center;
+  border-bottom: 2px solid #34c759;
+  margin: 0 auto;
+  width: 60px;
+}
+
+.infoBox_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+// dishes
+
+.dishes {
+  margin-top: 60px;
+}
+
+.dishItems {
+  margin: 60px 165px 0 165px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.titleStyle {
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+//chefs
+
+.chefs_content {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.chefs_item {
+  margin-top: 38px;
+  display: flex;
+  justify-content: cen;
+}
+
+.gallery {
+  display: flex;
+  margin-top: 24px;
+  & img {
+    margin-right: 30px;
+  }
+}
+
+//recipes
+
+.recipes {
+  &_content {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: 'Helvetica Neue';
+  }
+  &_main_content {
+    width: 540px;
+    margin-top: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    background-image: url('./../../assets/recepies_bg.png');
+    background-repeat: no-repeat;
+  }
+  margin-top: 60px;
+  & Button {
+    margin-left: 60px;
+  }
+  &_arrow_white {
+    float: right;
+    position: relative;
+    left: -30px;
+    top: 30px;
+    background-color: #0000004d;
+    padding: 21px;
+    border-radius: 50%;
+  }
+  &_content_data {
+    margin-top: 65px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &_content_text {
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  &_content_name {
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &_watch,
+  &_comment,
+  &_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  &_watch,
+  &_comment {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  &_comment_count,
+  &_watch_count {
+    margin-left: 12px;
+  }
+}
+
+.recipesItems {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+//social
+
+.social {
+  margin-top: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  &_mediaItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
+
+.footer {
+  background-color: #252525;
+  margin-top: 120px;
+  &_underLine {
+    margin-top: 30px;
+    border-bottom: 2px solid #303030;
+    width: 100%;
+  }
+}
+
+.footer_bottom {
+  margin-top: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.appLogo_box {
+  justify-content: center;
+}
+
+.author {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  color: #737373;
+}

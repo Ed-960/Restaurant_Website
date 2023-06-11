@@ -1,0 +1,27 @@
+.chefsItem {
+  display: flex;
+  align-items: center;
+  margin-right: 175px;
+}
+
+.chefs_info_box {
+  margin-left: 24px;
+}
+
+.chefs_name {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: #ffffff;
+}
+
+.chefs_info {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.15px;
+  color: rgba(255, 255, 255, 0.5);
+}

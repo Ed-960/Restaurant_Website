@@ -1,0 +1,177 @@
+@media only screen and (max-width: 1400px) {
+  .about_info {
+   max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1314px) {
+  .infoBox_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+    margin-right: 200px;
+    margin-left: 230px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .dishItem {
+    max-width: 250px;
+    height: 400px;
+    & img {
+      max-width: 250px;
+    }
+  }
+
+  .dishInfobox {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .dishTitle {
+    font-size: 28px;
+  }
+
+  .dishInfo {
+    font-size: 10px;
+  }
+
+  .dishChoice {
+    margin-top: 15px;
+    max-width: 220px;
+    font-size: 13px;
+  }
+
+  .btn_order {
+    margin-left: 10px;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .pagination_box {
+    button {
+      img {
+        max-width: 95%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    margin-top: 50px;
+    padding-top: 0px;
+  }
+  .infItems {
+    margin-top: 40px;
+  }
+
+  .title {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .infoBox_items {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    margin-top: 80px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    &_info {
+      margin-top: -20px;
+    }
+  }
+  
+  .pagination_box {
+    display: none;
+  }
+  .about_info {
+    padding-top: 20px;
+  }
+
+  .dishItem {
+    max-width: 250px;
+    height: 350px;
+    & img {
+      max-width: 250px;
+    }
+  }
+
+  .dishInfobox {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .dishTitle {
+    font-size: 20px;
+  }
+
+  .dishInfo {
+    font-size: 9px;
+  }
+
+  .dishChoice {
+    margin-top: 5px;
+    // width: 180px;
+    font-size: 11px;
+  }
+
+  .star_like_btn {
+    margin-top: 0;
+  }
+
+  .stars {
+    img {
+      max-width: 15px;
+    }
+  }
+
+  .likes {
+    margin-left: 12px;
+  }
+
+  .btn_order {
+    // margin-right: 10px;
+    max-width: 80px;
+    height: 40px;
+    // margin-left: 0;
+    font-size: 10px;
+    letter-spacing: 0.5spx;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .infItems {
+    margin-left: 20px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .infoBox_items {
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+}

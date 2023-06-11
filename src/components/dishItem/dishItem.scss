@@ -1,0 +1,75 @@
+.dishItem {
+  border-radius: 5;
+  background-color: #252525;
+  max-width: 350px;
+  height: 493px;
+}
+
+.dishInfobox {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.dishTitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  color: #d9d9d9;
+}
+
+.dishInfo {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.15px;
+  color: #a4a8b2;
+}
+
+.dishChoice {
+  font-family: 'Helvetica Neue';
+  margin-top: 20px;
+  max-width: 290px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.1625px;
+  color: #85878c;
+}
+
+.stars {
+  display: flex;
+  margin-top: -35px;
+}
+
+.star_like_btn {
+  display: flex;
+  margin-top: 28px;
+}
+
+.likes {
+  margin-left: 12px;
+  font-family: 'Helvetica Neue';
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #b3b3b3;
+}
+
+.btn_order {
+  position: relative;
+  top: -30px;
+  padding: 10px 20px;
+  margin-left: 60px;
+  max-width: 100px;
+  border-radius: 20px;
+  background-color: #34c759;
+  font-family: 'Helvetica Neue';
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #252525;
+}

@@ -1,0 +1,57 @@
+.buttonTypeGreen {
+  background: #34c759;
+  border-radius: 43px;
+  border-style: none;
+  text-align: center;
+  p {
+    font-family: 'Helvetica Neue';
+    color: #1a1a1a;
+  }
+}
+
+.buttonTypeDarkcircled {
+  background: #262626;
+  border: 2px solid #303030;
+  border-radius: 30px;
+  text-align: center;
+  p {
+    font-family: 'Helvetica Neue';
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    color: #737373;
+  }
+}
+
+.buttonTypeDark {
+  background: #0000004d;
+  border-radius: 7px;
+  text-align: center;
+  border-style: none;
+  p {
+    font-family: 'Helvetica Neue';
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+    font-family: 'Helvetica Neue';
+    color: #fff;
+  }
+}
+
+.buttonTypeDarker {
+  background: #000;
+  border-radius: 7px;
+  text-align: center;
+  border-style: none;
+  p {
+    font-family: 'Helvetica Neue';
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+    font-family: 'Helvetica Neue';
+    color: #fff;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+}
+
+.bgTitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 150px;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.aboutTitle {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 11px;
+  color: #d9d9d9;
+}

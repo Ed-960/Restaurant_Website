@@ -1,0 +1,74 @@
+@media only screen and (max-width: 725px) {
+  .recipesItem {
+    font-size: 14px;
+    height: 160px;
+    &_btn_data {
+      margin-top: 15px;
+      display: block;
+    }
+    &_inner {
+      margin-top: 5px;
+    }
+    &_comment,
+    &_watch {
+      display: block;
+      margin: 30px 10px 30px 10px;
+      & img {
+        margin-left: 2px;
+      }
+    }
+    &_comment_count,
+    &_watch_count {
+      margin-left: 12px;
+    }
+
+    &_watch_count {
+      margin-left: 2px;
+      margin-top: 2px;
+    }
+
+    &_info_box {
+      margin-top: -19px;
+    }
+    &_text {
+      margin-top: 10px;
+      line-height: 17px;
+    }
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .recipesItem {
+    &_text {
+      line-height: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .recipesItem {
+    &_inner{
+      margin-top: 20px;
+    }
+    &_text {
+      margin-bottom: -10px;
+      line-height: 13px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 470px) {
+  .recipesItem {
+    height: 30%;
+    &_inner {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .recipesItem {
+    display: none;
+  }
+}

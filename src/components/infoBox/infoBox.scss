@@ -1,0 +1,50 @@
+.boxContainer {
+  padding: 24px 24px 0 24px;
+}
+
+.boxItem {
+  max-width: 255px;
+  height: 205px;
+  background-color: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-right: 30px;
+  &:hover {
+    background-color: #34c759;
+    .boxTitle {
+      color: #191919;
+    }
+    .boxUnderLine {
+      border: #191919 1px solid;
+    }
+    .text {
+      color: #191919;
+    }
+  }
+}
+
+.boxTitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.275px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.boxUnderLine {
+  max-width: 56px;
+  margin-top: 10px;
+  border: #34c759 1px solid;
+}
+
+.text {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1625px;
+  margin-top: 24px;
+  color: #ffffff80;
+}
