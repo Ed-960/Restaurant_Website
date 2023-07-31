@@ -3,6 +3,22 @@
   background-color: #252525;
   max-width: 350px;
   height: 493px;
+  &:hover {
+    background-color: #258a3f;
+    .btn_order {
+      background-color: #474849;
+      color: #fff;
+    }
+    .dishTitle {
+      color: #111010;
+    }
+    .dishInfo {
+      color: #232527;
+    }
+    .dishChoice {
+      color: #fff;
+    }
+  }
 }
 
 .dishInfobox {

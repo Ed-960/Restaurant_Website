@@ -57,6 +57,9 @@
     padding: 20px 20px 20px 30px;
     width: 270px;
     background-color: #262626;
+    &:hover {
+      background-color: #424141;
+    }
   }
   &_data {
     font-weight: 400;

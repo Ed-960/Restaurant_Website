@@ -1,11 +1,24 @@
 .buttonTypeGreen {
-  background: #34c759;
+  background-color: #34c759;
   border-radius: 43px;
   border-style: none;
   text-align: center;
+  cursor: pointer;
   p {
     font-family: 'Helvetica Neue';
     color: #1a1a1a;
+  }
+  &:hover {
+    background-color: #00ff40;
+    p {
+      color: #444444;
+    }
+  }
+  &:active {
+    background-color: #37ff5f;
+    p {
+      color: #8f8f8f;
+    }
   }
 }
 

@@ -109,7 +109,11 @@ const Main: React.FC = () => {
           handleMenuToggle={handleMenuToggle}
         />
         {showMenu && (
-          <MenuPopup showMenu={showMenu} handleMenuItemClick={handleMenuItemClick} handleMenuToggle={handleMenuToggle}/>
+          <MenuPopup
+            showMenu={showMenu}
+            handleMenuItemClick={handleMenuItemClick}
+            handleMenuToggle={handleMenuToggle}
+          />
         )}
         <div className='container'>
           <div>
